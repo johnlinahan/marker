@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     DEBUG_DATA_FOLDER: str = os.path.join(BASE_DIR, "debug_data")
     ARTIFACT_URL: str = "https://models.datalab.to/artifacts"
     FONT_NAME: str = "GoNotoCurrent-Regular.ttf"
-    FONT_PATH: str = os.path.join(FONT_DIR, FONT_NAME)
+    FONT_PATH: str = os.path.join("/home/john/x/fonts", FONT_NAME)
     LOGLEVEL: str = "INFO"
 
     # General
